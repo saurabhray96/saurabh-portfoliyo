@@ -1,0 +1,54 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  nav {
+    background-color: #ffffff;
+    color: #6710b3;
+    padding: 0 0;
+  }
+  
+  @media (max-width: 550px) {
+    nav ul{
+      display: none;
+    }
+  }
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #621e90;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 50px 0;
+   
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  mark{
+    background-color:#6710b3;
+    color: white;
+  }
