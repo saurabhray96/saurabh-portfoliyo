@@ -12,3 +12,7 @@ function first() {
     document.getElementById("three").click();
   }
   three();
+  function four() {
+    document.getElementById("four").click();
+  }
+  four();
