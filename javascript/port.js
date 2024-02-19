@@ -20,3 +20,7 @@ function first() {
     document.getElementById("five").click();
   }
   five();
+  function six() {
+    document.getElementById("six").click();
+  }
+  six();
