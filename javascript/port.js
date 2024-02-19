@@ -16,3 +16,7 @@ function first() {
     document.getElementById("four").click();
   }
   four();
+  function five() {
+    document.getElementById("five").click();
+  }
+  five();
